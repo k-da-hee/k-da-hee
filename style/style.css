@@ -1,0 +1,78 @@
+@charset "utf-8";
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    padding:50px;
+}
+.main_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size:88px;
+    color:#000;
+}
+.mainv_area{
+    width:40%;
+    height:250px;
+    border-radius: 30px;
+    overflow: hidden;
+    background: url('../img/mainv.jpg')no-repeat center;
+    background-size: cover;
+}
+.sub_top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.sub_top div{
+    font-size:15px;
+}
+.sub_top div p{
+    color:#15a376;
+    margin-bottom: 12px;
+}
+.sub_top div span{
+    line-height: 21px;
+}
+.Introd{
+    background: #c7e3da;
+    padding:20px;
+    font-size: 15px;
+    line-height: 23px;
+    color:#333;
+    border-radius: 10px;
+}
+.work_wrap{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.work_line{
+    display: flex;
+    align-items: flex-start;
+    gap:50px;
+    line-height:23px;
+}
+.work_year{
+    width:20%;
+}
+.work_year span{
+    color:#15a376;
+}
+.work_cont p{
+    font-size:12px;
+}
+.work_cont em{
+    display: block;
+    color:#15a376;
+}
+.work_cont a{
+    display: block;
+    font-weight: bold;
+}
+
